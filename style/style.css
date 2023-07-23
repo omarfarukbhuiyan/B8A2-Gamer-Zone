@@ -8,6 +8,8 @@
 
 /* nav start*/
 
+
+
 .nav{
     display: flex;
     height: 100px;
@@ -203,3 +205,53 @@ h2 span{
     line-height: 20px;
 }
 /* Online Games section end */
+
+/* star Play Instantly */
+
+
+.img-childe{
+    position: relative; right: -800px; top: 350px;
+
+}
+.img-parents{
+    position: absolute; right: 90px;
+    height: 500px; width: 480px;
+}
+.txt-sec2 h2{
+    text-align: end;
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    position: relative; top: 380px; left: -900px;
+
+}
+.txt-sec2 h1{
+    margin-top: 0px;
+    text-align: end;
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    position: relative; top: 380px; left: -900px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.txt-sec2 p{
+    color: #534C64;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative; left: -910px; top: 380px;
+    
+}
+
+
+/* end Play Instantly */

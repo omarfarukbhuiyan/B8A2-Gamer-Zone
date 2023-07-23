@@ -1,0 +1,151 @@
+*{
+    max-width: 100%;
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    @import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap);
+}
+
+/* nav start*/
+
+.nav{
+    display: flex;
+    height: 100px;
+    box-shadow: 0px 7px 32px -24px rgba(0,0,0,0.44);
+-webkit-box-shadow: 0px 7px 32px -24px rgba(0,0,0,0.44);
+-moz-box-shadow: 0px 7px 32px -24px rgba(0,0,0,0.44);
+
+    
+}
+.nav-logo{
+    height: 40px; width: 80px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.logo h2{
+    position: relative; top: 35px; right: -10px;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(11, 11, 11);
+    font-size: 30px;
+    font-weight: 700;
+}
+h2 span{
+    color: rgb(255, 66, 165);
+}
+.logo{
+    display: flex;
+    
+    
+}
+.ul ul {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    position: absolute; right: 300px; top: 37px;
+}
+.ul a{
+    text-decoration: none;
+    color: #3C354F;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.ul li{
+    list-style-type: none;
+    
+}
+.icon{
+    display: flex;
+    background-color:rgb(231, 230, 233);
+    padding: 8px;
+    border-radius: 5px;
+    position: relative; right: -1040px; top: 25px;
+}
+.icon a{
+    position: relative; top: 2px;
+    
+}
+.tiktok{
+    height: 25px; width: 25px;
+    margin-left: 10px;
+    
+}
+.youtube{
+    height: 20px; width: 30px;
+    margin-left: 10px;
+    margin-top: 2px;
+
+}
+/* nav end*/
+
+/* banner start */
+
+.banner{
+    background-image: url(Group\ 14.png); height: 10px; width: 20px;
+    background-repeat: no-repeat;
+    height: 610px; width: 100%;
+}
+.banner-div{
+    display: flex;
+   
+}
+.bimg img{
+    height: 600px;
+    position: relative; top: 12px; right: -550px;
+}
+.btxt h2{
+    color: #0B0223;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    position: relative; top: 150px;
+    right: -250px;
+
+
+}
+.btxt h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative; top: 150px; right: -250px;
+}
+.p1, .p2, .p3{
+    color: #534C64;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    position: relative; top: 130px; right: -280px;
+}
+.bt1, .bt2{
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 25px;
+    position: relative; top: 120px; right: -250px;
+
+}
+.bt1{
+    padding-left: 30px; padding-right: 25px; padding-top: 15px; padding-bottom: 15px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    
+}
+.bt2{
+    padding-left: 30px; padding-right: 25px; padding-top: 15px; padding-bottom: 15px;
+    border-radius: 48px;
+    background: rgb(255, 66, 165);
+    border: none;
+}
+/* Banner end */

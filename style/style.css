@@ -155,7 +155,12 @@ h2 span{
 
 /* start Online Games section */
 .sec1{
+    height: 600px;
     border: solid 2px black;
+    margin-bottom: 0;
+}
+.div-sec1{
+    
 }
 .txt-sec1 h2{
     text-align: center;
@@ -208,13 +213,19 @@ h2 span{
 
 /* star Play Instantly */
 
+.sec2{
+    border: solid 3px black;
+    height: 700px; width: 100%;
+    
+    margin-top: 10px;
+}
 
 .img-childe{
-    position: relative; right: -800px; top: 350px;
+    position: relative; right: -800px; top: -450px;
 
 }
-.img-parents{
-    position: absolute; right: 90px;
+.img1-sec2 img{
+    position: relative; right: -950px; top: -270px;
     height: 500px; width: 480px;
 }
 .txt-sec2 h2{
@@ -224,7 +235,7 @@ h2 span{
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
-    position: relative; top: 380px; left: -900px;
+    position: relative; top: 200px; left: -900px;
 
 }
 .txt-sec2 h1{
@@ -235,7 +246,7 @@ h2 span{
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
-    position: relative; top: 380px; left: -900px;
+    position: relative; top: 200px; left: -900px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -249,9 +260,60 @@ h2 span{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    position: relative; left: -910px; top: 380px;
+    position: relative; left: -910px; top: 200px;
     
 }
 
 
 /* end Play Instantly */
+/* section 3 start */
+
+.sec3{
+    border: #534C64 solid 2px;
+    margin-top: 25px;
+    height: auto;
+}
+.fst-line{
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px 0px 100px;
+    height: 40px ;
+}
+.fst-line div{
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    
+}
+.fst-line p{
+    color: #0B0223;
+font-family: 'Work Sans', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding: 10px 0px 0px 15px;
+}
+.snd-line{
+    margin: 40px 0px 0px 0px;
+}
+
+.snd-line{
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px 0px 100px;
+    height: 40px ;
+}
+.snd-line div{
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    
+}
+.snd-line p{
+    color: #0B0223;
+font-family: 'Work Sans', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding: 10px 0px 0px 15px;
+}

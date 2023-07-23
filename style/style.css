@@ -86,6 +86,7 @@ h2 span{
     background-image: url(Group\ 14.png); height: 10px; width: 20px;
     background-repeat: no-repeat;
     height: 610px; width: 100%;
+    margin-bottom: 100px;
 }
 .banner-div{
     display: flex;
@@ -149,3 +150,56 @@ h2 span{
     border: none;
 }
 /* Banner end */
+
+/* start Online Games section */
+.sec1{
+    border: solid 2px black;
+}
+.txt-sec1 h2{
+    text-align: center;
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.txt-sec1 p{
+    color: #534C64;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pic4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 90px; padding-right: 90px; padding-top: 30px;
+}
+.s1img, .s2img, .s3img, .s4img{
+    height: 600px; width: 300px;
+    
+}
+.pic4 p{
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+/* Online Games section end */

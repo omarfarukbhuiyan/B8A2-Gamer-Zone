@@ -270,7 +270,7 @@ h2 span{
 
 .sec3{
     border: #534C64 solid 2px;
-    margin-top: 25px;
+    margin-top: 25px; margin-bottom: 25px;
     height: auto;
 }
 .fst-line{
@@ -316,4 +316,76 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 padding: 10px 0px 0px 15px;
+}
+/* section 3 end */
+
+/* footer start */
+.footer{
+    background-color: #0B0223;
+    height: 500px; width: 100%;
+}
+.flogo{
+    display: flex;
+    justify-content: center;
+    position: relative; top: 120px;
+
+}
+.fot-logo{
+    height: 25px; width: 50px;
+}
+.flogo h2{
+    color: white;
+    margin-left: 20px;
+    
+}
+.ftxt ul{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    list-style-type: none;
+    position:  top 180px;
+}
+.ftxt li{
+    padding: 0px 40px 0px 0px;
+    position: relative; top: 170px;
+    
+}
+.icn img{
+    height: 40px; width: 40px;
+    padding: 0px 5px 0px 5px
+}
+.icn{
+    display: flex;
+    justify-content: center;
+    position: relative; top: 200px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.copy p{
+    padding: 0px 40px 0px 0px;
+    position: relative; top: 230px;
+}
+.cotyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-align: center;
+    position: relative; top: 250px;
 }

@@ -156,7 +156,6 @@ h2 span{
 /* start Online Games section */
 .sec1{
     height: 600px;
-    border: solid 2px black;
     margin-bottom: 0;
 }
 .div-sec1{
@@ -196,7 +195,8 @@ h2 span{
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    padding-left: 90px; padding-right: 90px; padding-top: 30px;
+    padding-left: 90px; padding-right: 100px; padding-top: 30px;
+    margin-left: 50px;
 }
 .s1img, .s2img, .s3img, .s4img{
     height: 600px; width: 300px;
@@ -209,12 +209,74 @@ h2 span{
     font-weight: 500;
     line-height: 20px;
 }
+.hbox .hbox1, .hbox2, .hbox3, .hbox4{
+    height: 350px; width: 303px;
+    position: relative; top: 100px;
+    background-color: rgb(9, 0, 0);
+    border: #F948B2 3px solid;
+    border-radius: 15px;
+    margin-right: 50px;
+    
+}
+.hbox .hbox1{
+    position: relative; top: 100px; right: -86px;
+    height: 350px; width: 303px;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.hbox .hbox2{
+    position: relative; top: 100px; right: -58px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.hbox .hbox3{
+    position: relative; top: 100px; right: -30px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.hbox .hbox4{
+    position: relative; top: 100px; right: -4px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.hbox{
+    display: flex;
+    justify-content: center;
+    
+    position: relative; top: -700px;
+}
+.hbox1 P, .hbox2 p, .hbox3 p, .hbox4 p{
+    text-align: center;
+    color: #F948B2;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 200px;
+}
+.hbox1 img, .hbox2 img, .hbox3 img, .hbox4 img{
+    height: 40px; width: 40px;
+    position: relative; top: -80px; left: 130px;
+    color: #FFF;
+}
+.hbox1:hover, .hbox2:hover, .hbox3:hover, .hbox4:hover{
+    opacity: 70%;
+}
+
+
+
+
+
+    
+
 /* Online Games section end */
 
 /* star Play Instantly */
 
 .sec2{
-    border: solid 3px black;
+    
     height: 700px; width: 100%;
     
     margin-top: 10px;
@@ -269,7 +331,7 @@ h2 span{
 /* section 3 start */
 
 .sec3{
-    border: #534C64 solid 2px;
+    
     margin-top: 25px; margin-bottom: 25px;
     height: auto;
 }
@@ -317,6 +379,15 @@ font-weight: 300;
 line-height: normal;
 padding: 10px 0px 0px 15px;
 }
+.m1:hover, .m2:hover, .m3:hover, .m4:hover, .m5:hover{
+    border: #F948B2 solid 1px; border-radius: 25px;
+    padding: 5px ;
+}
+.fst-line p:hover{
+    color: #F948B2;
+}
+.snd-line p:hover{
+    color: #F948B2}
 /* section 3 end */
 
 /* footer start */
@@ -356,7 +427,7 @@ padding: 10px 0px 0px 15px;
     
 }
 .icn img{
-    height: 40px; width: 40px;
+    height: 20px; width: 30px;
     padding: 0px 5px 0px 5px
 }
 .icn{
